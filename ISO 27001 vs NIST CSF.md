@@ -1,6 +1,6 @@
 # ISO/IEC 27001 vs NIST CSF — Comparativa y aprendizajes
 
-## Definiciones 2
+## Definiciones 23
 
 - **ISO/IEC 27001**: norma internacional certificable para implementar un Sistema de Gestión de Seguridad de la Información (SGSI), con estructura formal, políticas, auditorías, mejora continua, etc.  
 - **NIST Cybersecurity Framework (CSF)**: conjunto de buenas prácticas/gobierno de riesgos en ciberseguridad desarrollado por el NIST (EE.UU.), no certificable como marco general, pero muy útil como guía flexible de madurez de seguridad.
