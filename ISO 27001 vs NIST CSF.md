@@ -1,0 +1,40 @@
+# ISO/IEC 27001 vs NIST CSF — Comparativa y aprendizajes
+
+## Definiciones
+
+- **ISO/IEC 27001**: norma internacional certificable para implementar un Sistema de Gestión de Seguridad de la Información (SGSI), con estructura formal, políticas, auditorías, mejora continua, etc.  
+- **NIST Cybersecurity Framework (CSF)**: conjunto de buenas prácticas/gobierno de riesgos en ciberseguridad desarrollado por el NIST (EE.UU.), no certificable como marco general, pero muy útil como guía flexible de madurez de seguridad.
+
+## Similitudes
+
+- Ambas se centran en gestionar riesgos de seguridad de la información: identificar amenazas, vulnerabilidades, establecer controles, monitorear, responder y recuperarse.  
+- Ambas promueven la mejora continua: revisión, auditorías o autoevaluaciones, acciones correctivas.  
+- Ambas ayudan al cumplimiento normativo, legal o regulatorio y al demostrar responsabilidad en seguridad de la información.
+
+## Diferencias
+
+- La ISO exige formalización y auditoría externa, mientras que el NIST CSF es más una guía flexible para autoevaluación, madurez, sin certificación obligatoria.  
+- ISO tiene un SGSI completo con políticas, estructura, documentación; NIST CSF permite elegir qué funciones o categorías aplicar primero según recursos, contexto, nivel de riesgo.  
+- NIST CSF 2.0 incorpora explícitamente gobernanza (*Govern*) como función, algo que en ISO está implícito en roles, dirección y liderazgo pero no como “función” separada del marco del CSF.  
+
+## Normativa Colombiana
+
+- Ley 1581 de 2012 de Protección de Datos Personales: exige medidas de seguridad adecuadas para datos personales. Los marcos como ISO/IEC 27001 o NIST CSF aportan estructura, controles, gestión de incidentes, responsabilidad demostrada.  
+- Circular Externa 007 de 2018 de la Superintendencia Financiera: define requerimientos mínimos de ciberseguridad para entidades vigiladas. ISO/IEC 27001 ofrece base sólida para cumplir estos requerimientos; NIST CSF útil para diagnóstico y priorización.  
+- ONAC reconoce la acreditación para ISO/IEC 27001 en Colombia como esquema formal de evaluación de conformidad. :contentReference[oaicite:3]{index=3}
+
+## Ejemplo de Aplicación
+
+- Una PyME comienza con CSF: hacer evaluación de dónde está (perfil actual), identificar gaps en *Identify*, *Protect*, *Detect*. Define plan de mejoras.  
+- Luego adopta ISO 27001 para formalizar políticas, estructura, roles, procesos documentados, y si se requiere certificación para contratos o regulaciones.  
+
+## Tabla comparativa ISO/IEC 27001 vs NIST CSF
+
+| Aspecto                           | ISO/IEC 27001                                                                        | NIST CSF (versión 2.0)                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Certificable                      | Sí, mediante auditoría externa y organismos acreditados.                             | No existe un esquema de certificación formal para todo el CSF.                                     |
+| Estructura formal                 | Requiere SGSI, políticas documentadas, roles, auditorías, revisión por la dirección. | Ofrece funciones/categorías/perfiles que pueden adaptarse, mayor flexibilidad.                     |
+| Enfoque en gobernanza             | Gobernanza implícita: liderazgo, dirección, responsabilidad en los roles y política. | Gobernanza explícita como función nueva (*Govern*) con roles, políticas, estrategias, supervisión. |
+| Adaptabilidad a tamaño / recursos | Puede ser costoso para empresas pequeñas sin estructura de seguridad previa.         | Más adaptable a nivel de madurez, permite comenzar con lo esencial y crecer.                       |
+
+
