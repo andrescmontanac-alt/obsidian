@@ -179,13 +179,23 @@
               "icon": "lucide-list",
               "title": "Outline of 1. ISO 27001 vs NIST CSF"
             }
+          },
+          {
+            "id": "8092cf50c565d34f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
